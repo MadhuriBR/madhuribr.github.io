@@ -1,5 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
 
+/* used when required fonts dont get displayed- make sure to copy the fonts in the folder */
+@font-face {
+    font-family: neu;
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 100;
+    src: url(./NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 200;
+    src: url(./NeueHaasDisplayRoman.ttf);
+}
+
 
 
 *{
