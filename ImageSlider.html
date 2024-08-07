@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="ImageSlider.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Martian+Mono:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<header>
+    <nav id="navbar">
+        <div class="menu">
+            <img src="logo.png" class="logo">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Professional Works</a></li>
+                    <li><a href="#">Academic Works</a></li>
+                    <li><a href="#">Others Works</a></li>
+                    <li><a href="#">Contact me</a></li>                    
+                </ul>
+            </div>
+            <!-- <form class="form">
+                <div class="input-wrap">
+                    <input
+                    type="search"
+                    placeholder="Search..."
+                    />
+                </div> -->
+            </form>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+<body>
+    <section class="container">
+        
+    </section>
+
+    <!-- ImageSliderSection -->
+    <section class="slider-container">
+        <div class="slider-images">
+            <div class="slider-img">
+                <img src="Images\CanaraUnion02.jpg" alt="1">
+                <h1>Canara Union</h1>
+                <div class="details">
+                    <h2>Canara Union</h2>
+                    <p>Community Hall </p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Images\Ebb1.jpg" alt="2">
+                <h1>Ebb</h1>
+                <div class="details">
+                    <h2>Ebb</h2>
+                    <p>Residence</p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Images\Embassy01.jpg" alt="3">
+                <h1>ELT</h1>
+                <div class="details">
+                    <h2>ELT</h2>
+                    <p>Apartment Interiors</p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Images\Embassy01.jpg" alt="4">
+                <h1>Raheja Towers</h1>
+                <div class="details">
+                    <h2>Raheja</h2>
+                    <p>Office Lobby</p>
+                </div>
+            </div>
+            <div class="slider-img active">
+                <img src="Images\Inventory.0588.png" alt="5">
+                <h1>FlavorTech XR</h1>
+                <div class="details">
+                    <h2>FlavorTech XR</h2>
+                    <p>Smart Kitchen application</p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Images\Inventory.0588.png" alt="6">
+                <h1>Infinium</h1>
+                <div class="details">
+                    <h2>Infinium Studio</h2>
+                    <p>Fractal Assets X Virtual Exhibition</p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Images\KitchenPrototype.0000.png" alt="7">
+                <h1>MetaFluid</h1>
+                <div class="details">
+                    <h2>Meta-fluid studio</h2>
+                    <p>Architecture X Wellness X Fashion</p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Images\KitchenPrototype.0000.png" alt="8">
+                <h1>FlowerTower</h1>
+                <div class="details">
+                    <h2>FlowerTower</h2>
+                    <p>Mixed use X AI X Computation</p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Images\Inventory.0588.png" alt="9">
+                <h1>Robotic Artistry</h1>
+                <div class="details">
+                    <h2>Robotic Artistry</h2>
+                    <p>AR Fabrication</p>
+                </div>
+            </div>
+        <!-- ImageSliderSection -->
+            
+        </div>
+
+    </section>
+<!-- <script src="js/jQuery.js"></script>
+<script>
+    jQuery(document).ready(function($){
+
+        $('.slider-img').on('click', function(){
+            $('.slider-img').removeClass('active');
+            $(this).addClass('active')
+        });
+
+    });
+</script> -->
+
+<!-- <script src="js/jQuery.js"></script>
+<script>
+    jQuery(document).ready(function($){
+
+        $('.slider-img').on('mouseenter', function(){
+            $('.slider-img').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $('.slider-img').on('click', function(){
+            window.location.href = 'canaraunion.html'; // Replace with the actual target page URL
+        });
+
+    });
+</script> -->
+
+<script src="js/jQuery.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+
+        $('.slider-img').on('mouseenter', function() {
+            $('.slider-img').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $('.slider-img').on('click', function() {
+            var index = $('.slider-img').index(this);
+            switch (index) {
+                case 0:
+                    window.location.href = 'canaraunion.html';
+                    break;
+                case 1:
+                    window.location.href = 'ebb.html';
+                    break;
+                case 2:
+                    window.location.href = 'elt.html';
+                    break;
+                case 3:
+                    window.location.href = 'raheja.html';
+                    break;
+                case 4:
+                    window.location.href = 'Flavortech.html';
+                    break;
+                case 5:
+                    window.location.href = 'infinium.html';
+                    break;
+                case 6:
+                    window.location.href = 'metafluid.html';
+                    break;
+                case 7:
+                    window.location.href = 'flowertower.html';
+                    break;
+                case 8:
+                    window.location.href = 'roboticartistry.html';
+                    break;
+                default:
+                    window.location.href = 'default.html';
+                    break;
+            }
+        });
+
+    });
+</script>
+
+
+<script src="js/jQuery.js"></script>
+<script>
+    jQuery(document).ready(function($){
+        $('.menu-toggle').on('click', function(){
+            $(this).toggleClass('active');
+            $('.nav-links').toggleClass('show');
+        });
+    });
+</script>
+
+<script src="js/jQuery.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        $('.menu-toggle').on('click', function() {
+            $(this).toggleClass('active');
+            $('.nav-links').toggleClass('show');
+        });
+
+        $('.slider-img').on('mouseenter', function() {
+            $('.slider-img').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $('.slider-img').on('click', function() {
+            var index = $('.slider-img').index(this);
+            switch (index) {
+                case 0:
+                    window.location.href = 'canaraunion.html';
+                    break;
+                case 1:
+                    window.location.href = 'ebb.html';
+                    break;
+                case 2:
+                    window.location.href = 'elt.html';
+                    break;
+                case 3:
+                    window.location.href = 'raheja.html';
+                    break;
+                case 4:
+                    window.location.href = 'Flavortech.html';
+                    break;
+                case 5:
+                    window.location.href = 'infinium.html';
+                    break;
+                case 6:
+                    window.location.href = 'metafluid.html';
+                    break;
+                case 7:
+                    window.location.href = 'flowertower.html';
+                    break;
+                case 8:
+                    window.location.href = 'roboticartistry.html';
+                    break;
+                default:
+                    window.location.href = 'default.html';
+                    break;
+            }
+        });
+    });
+</script>
+
+
+
+
+</body>
+
+</html>
