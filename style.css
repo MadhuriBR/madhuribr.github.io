@@ -165,7 +165,8 @@ nav h3 {
 }
 
 #moving-text h1 {
-    font-size: 4vw;
+    font-size: 2vw;
+    color: hsla(0, 0%, 40%, 0.95);
     /* background-color: lightblue; */
     display: inline-block;
 }
@@ -177,7 +178,7 @@ nav h3 {
     display: inline-block;
     /* background-color: #FE320A; */
     background-color: orange;
-    margin: 1vw 2vw;
+    margin: -0.02vw 2vw;
 }
 
 @keyframes move {
@@ -203,13 +204,13 @@ nav h3 {
 }
 
 #page2-bottom h1 {
-    font-size: 2vw;
-    width: 50%;
+    font-size: 1.5vw;
+    width: 40%;
     line-height: 2vw;
 }
 
 #bottom-part2 {
-    width: 45%;
+    width: 50%;
     /* background-color: aqua; */
 }
 
