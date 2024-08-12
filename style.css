@@ -305,15 +305,15 @@ nav h3 {
     padding: 10vw 2vw;
 }
 .UI {
-    font-size: 2rem; /* Adjust the font size for a subtitle */
-    font-weight: 600; /* Make the font weight bold */
-    color: black; /* Set a dark color for the subtitle */
-    margin: 40px 10px; /* Add some margin to space it out from other elements */
-    text-align: left; /* Align the text to the left */
-    line-height: 1.4; /* Adjust line height for better readability */
-    width: 100%; /* Full width to match subtitle style */
-    padding: 0; /* Remove padding */
-    height: auto; /* Adjust height to fit content */
+    font-size: 2rem; 
+    font-weight: 600; 
+    color: black; 
+    margin: 40px 10px; 
+    text-align: left; 
+    line-height: 1.4; 
+    width: 100%; 
+    padding: 0; 
+    height: auto; 
 }
 
 .swiper {
@@ -544,19 +544,22 @@ nav h3 {
     }
 
     #moving-text h1 {
-        font-size: 15vw;
+        font-size: 8vw;
         /* background-color: lightblue; */
         display: inline-block;
     }
 
     #gola {
-        height: 25px;
-        width: 25px;
+        height: 18px;
+        width: 18px;
         border-radius: 50%;
         display: inline-block;
-        background-color: #FE320A;
+        background-color: orange;
         margin: 2vw 2vw;
     }
+    
+
+    
 
     #page2-bottom {
         height: 90vh;
