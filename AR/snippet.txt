@@ -1,0 +1,14 @@
+<model-viewer src="FTX.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="2" exposure="1.66" environment-image="pillars_1k.hdr" shadow-softness="1" camera-orbit="-767.4deg 85.73deg 16m" field-of-view="22.98deg">
+    <button class="Hotspot" slot="hotspot-12" data-position="-3.664669789468462m 0.2169246283752303m -0.19410515856264876m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Automated Kitchen</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>

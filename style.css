@@ -50,7 +50,7 @@ nav {
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 100;
+    z-index: 200;
     justify-content: space-between;
 }
 
@@ -61,14 +61,14 @@ nav {
 }
 
 #nav-part2 h4 {
-    padding: 10px 20px;
+    padding: 20px 60px;
     border: 1px solid #0000003c;
-    border-radius: 50px;
+    border-radius: 80px;
     font-weight: 500;
     color: #000000bb;
     transition: all ease 0.4s;
     position: relative;
-    font-size: 18px;
+    font-size: 70px;
     overflow: hidden;
 }
 
@@ -167,7 +167,6 @@ nav h3 {
 #moving-text h1 {
     font-size: 2vw;
     color: hsla(0, 0%, 40%, 0.95);
-    /* background-color: lightblue; */
     display: inline-block;
 }
 
@@ -180,6 +179,21 @@ nav h3 {
     background-color: orange;
     margin: -0.02vw 2vw;
 }
+
+
+model-viewer {
+    width: 100vw;
+    height: 100vh;
+    background-color:  #EFEAE3;
+    margin: 0;
+    
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    border: none;
+  }
+
+ 
+  
 
 @keyframes move {
     from {
@@ -214,15 +228,13 @@ nav h3 {
     /* background-color: aqua; */
 }
 
-/* #bottom-part2 img {
-    width: 100%;
-    border-radius: 15px;
-} */
 
 #bottom-part2 video {
     width: 100%;
     border-radius: 15px;
 }
+
+
 
 #bottom-part2 p {
     font-weight: 100;
@@ -239,7 +251,7 @@ nav h3 {
 }
 
 .Features {
-    font-size: 2rem; /* Adjust the font size for a subtitle */
+    font-size: 6rem; /* Adjust the font size for a subtitle */
     font-weight: 600; /* Make the font weight bold */
     color: black; /* Set a dark color for the subtitle */
     margin: 40px 10px; /* Add some margin to space it out from other elements */
@@ -251,7 +263,7 @@ nav h3 {
 }
 
 .elem {
-    height: 150px;
+    height: 300px;
     width: 100%;
     position: relative;
 
@@ -304,8 +316,9 @@ nav h3 {
     background-color: #EFEAE3;
     padding: 10vw 2vw;
 }
+
 .UI {
-    font-size: 2rem; 
+    font-size: 6rem; 
     font-weight: 600; 
     color: black; 
     margin: 40px 10px; 
@@ -415,7 +428,7 @@ nav h3 {
 }
 
 #footer-div {
-    height: 2vh;
+    height: 4vh;
     width: 100%;
     /* background-color: #9e978d; */
     background-color: orange;
