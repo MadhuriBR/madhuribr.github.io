@@ -1,0 +1,41 @@
+/* used when required fonts dont get displayed- make sure to copy the fonts in the folder */
+@font-face {
+    font-family: neu;
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 100;
+    src: url(./NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 200;
+    src: url(./NeueHaasDisplayRoman.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: neu;
+    background-color: #EFEAE3;
+}
+
+header {
+    margin-top: 3em;
+    text-align: center;    
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#container3D canvas {
+    width: 100vw !important;
+    height: 100vw !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
