@@ -50,7 +50,7 @@ nav {
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 200;
+    z-index: 100;
     justify-content: space-between;
 }
 
@@ -61,14 +61,14 @@ nav {
 }
 
 #nav-part2 h4 {
-    padding: 20px 60px;
+    padding: 10px 20px;
     border: 1px solid #0000003c;
-    border-radius: 80px;
+    border-radius: 50px;
     font-weight: 500;
     color: #000000bb;
     transition: all ease 0.4s;
     position: relative;
-    font-size: 70px;
+    font-size: 18px;
     overflow: hidden;
 }
 
